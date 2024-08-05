@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Snap ITC';
+    url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+.snapITC {
+    font-family: "Snap ITC";
+}
+
+.fc-black {
+    color: black;
+}
+
+.fc-white {
+    color: white;
+}

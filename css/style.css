@@ -1,0 +1,182 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(234, 234, 234, 0.24);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-logo {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    color: black;
+    border: 2px solid black;
+}
+
+.hidden {
+    display: none;
+}
+a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    width: 50%;
+    height: 25px;
+    text-align: center;
+color: #ffffff;
+    background-color: rgb(40, 40, 40);
+}
+
+.subscribe img {
+    margin-left: 5px;
+}
+
+#keyContainer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#progressContainer {
+    margin-top: 10px;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 0px;
+    overflow: hidden;
+    height: 30px;
+    background: rgba(35, 35, 35, 0.1);
+}
+
+#progressText {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+#progressBar {
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #4ff328;
+    height: 30px;
+    width: 100%;
+    transition: 0.8s;
+}
+
+/*SELECT*/
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-option {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background:red;
+    display:block;
+    width:20px;
+    height:40px;
+    border:2px solid #262626;
+}
+
+.input-title {
+    font-size: 11pt;
+    margin: auto;
+}
+
+/* Remove arrow from select elements in IE */
+::-ms-expand {
+    display: none;
+}
+
+.select-wrapper {
+    overflow: hidden;
+    display:inline-block;
+    border: 1px solid #5d5d5d;
+    border-radius: 20px;
+    background:transparent;
+    padding: 0;
+    height: 30px;
+    min-width: 200px;
+    max-width: 300px;
+    margin-top: 5px;
+}
+
+.select-wrapper select {
+    -webkit-appearance: none;
+    background: #e3e3e3;
+    font-weight: 400;
+    font-size:10pt;
+    font-family: 'Open Sans Regular', Arial, Arial;
+    border-radius: 20px;
+    padding: 0 0 0 1.25em;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: black;
+}
+
+.select-icon {
+    position:relative;
+    bottom:34px;
+    float:right;
+    padding:10px;
+    height:100%;
+    border:1px solid #5d5d5d;
+    border-right:none;
+    pointer-events:none;
+}
+
+
+.button {
+    margin-top: 10Px;
+    display: inline-block;
+    color: #4f4f4f;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.button:hover { background: rgba(255,255,255,.2); }
+.button:active { background: #494949; }

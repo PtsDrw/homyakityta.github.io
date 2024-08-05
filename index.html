@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Umo Code Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Fonts.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="logo">
+    <div class="logoimg"><img src="logo.png" height="100" width="100"/></div>
+    <div class="snapITC text-logo">Хомячки 🐹</div>
+    <p class="description">Генератор кодов Hamster Kombat</p>
+</div>
+<div class="container">
+    <div class="input-title">Выберите количество кодов:</div>
+    <div class="select-wrapper">
+
+        <select id="keyCountSelect">
+            <option value="1">1 Код</option>
+            <option value="2">2 Кода</option>
+            <option value="3">3 Кода</option>
+            <option value="4">4 Кода</option>
+        </select>
+        <span class="select-icon"><i class="fa fa-arrow-down"></i></span>
+    </div>
+    <button class="button" id="startBtn">ГЕНЕРИРОВАТЬ</button>
+
+    <div class="progress hidden" id="progressContainer">
+        <div class="progress-value" id="progressBar"></div>
+        <span id="progressText">прогресс генерации</span>
+    </div>
+    <div id="keyContainer" class="hidden">
+        <h3>Список кодов:</h3><br>
+        <p id="generatedKeys">
+            BIKE-1E6-Z8CQ-0N9W-N0Q<br>
+            BIKE-0EJ-S3RG-0NBC-TDR<br>
+            BIKE-3EE-Y5R5-0HBM-G1G<br>
+            BIKE-2E2-XYCF-0K8M-7BH</p>
+    </div>
+
+    <a href="https://t.me/homyakityta">
+        <div class="subscribe"><span>Подписаться</span>
+            <img src="telegram.png" height="20" width="20"/>
+        </div>
+    </a>
+</div>
+<script src="js/codegen.js"></script>
+</body>
+</html>
