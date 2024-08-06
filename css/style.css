@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.mt10 {
+	margin-top:10px;
+}
+
 body {
     background-color: rgba(234, 234, 234, 0.24);
     color: black;
@@ -118,7 +122,8 @@ select {
 
 .input-title {
     font-size: 11pt;
-    margin: auto;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 /* Remove arrow from select elements in IE */
